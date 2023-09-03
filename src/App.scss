@@ -1,0 +1,222 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  display: inline-block;
+  width: 100%;
+  margin: 4% 0%;
+}
+
+.titleBox{
+  width: 60%;
+  display: inline-block;  
+}
+
+.titleText{
+  position: absolute;
+  z-index: 3;
+  text-align: left;
+  left: 26%;
+  top: 1%;
+  font-size: 2rem;
+}
+
+.titleDecoration{
+  background-color: #caf0ff;
+  width: 50px;
+  height: 25px;
+  border-radius: 20px;
+  position: absolute;
+  left: 25%;
+  top: 60px;
+}
+
+.groupButtons{
+  width: 40%;
+  display: inline-block;
+}
+
+.btnDecoration{ 
+  display: inline;
+  background-color: #ffa38d;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  z-index: 0;
+  margin-right: 2%;
+}
+
+.btnController{
+  background-color: #ffffff;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 100px;
+  border:none;
+  font-size: large;
+  font-weight: 200;
+  border: 1px solid #d7d7d7;
+  z-index: 1;
+}
+
+.carousel {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.carouselContainer {
+  display: flex;
+  overflow: hidden;
+  width: 90%; 
+  margin: 0 auto;
+}
+
+.card {
+  flex: 0 0 250px;
+  height: 400px;
+  margin-right: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.imgCard {
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.discountCard {
+  background-color: #cc9c00;
+  width: 15%;
+  border-radius: 5px;
+  margin: 5%;
+  right: 0%;
+  position: absolute;
+  font-size: x-small;
+}
+
+.buttonCard {
+  padding: 10px 20px;
+  background-color: #fff; 
+  color: #ffa38d; 
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  right: 3%;
+}
+
+.showProducts {
+  padding: 5rem;
+}
+
+.btnAllProducts {
+  color: #ffffff;
+  background-color: #ffa38d;
+  border-radius: 40px;
+  padding: 1rem;
+  font-weight: 600;
+  border: 1px solid #ffa38d;
+}
+
+.footerCard {
+  display: block;
+}
+
+.grid-6 {
+  display: inline-block;
+  width: 50%;
+  font-size: small;
+}
+
+.nameCard{
+  font-weight: bold;
+  text-align: left;
+}
+
+.rankingCard{
+  text-align: left;
+  color: #7c7c7c;
+}
+
+.priceCard{
+  text-align: right;
+  font-weight: bold;
+}
+
+.inputEmail {
+  border-radius: 20px;
+  border: 1px solid #ffa38d;
+  padding: 10px;
+  width: 300px;
+  margin: 20px;
+}
+
+.inputEmail::placeholder {
+  color: #7c7c7c;
+}
+
+.btnSubmit {
+  color: #ffffff;
+  background-color: #ffa38d;
+  border-radius: 40px;
+  padding: 10px 40px;
+  font-weight: 400;
+  border: 1px solid #ffa38d;
+}
+
+.footer{
+  background-color: #caf0ff;
+  padding: 0px 10px 10px 10px;
+}
+
+#canvas {
+  background-color: #fff; 
+  margin-left: -30px;
+}
+
+.footerTitle{
+  font-size: 2rem;
+  display: block;
+  margin: 1% 0%;
+}
+
+.footerText{
+  color:#7c7c7c;
+  display: block;
+  margin: 1% 0%;
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    display: block;
+  }
+  
+  .titleBox{
+    display: block;  
+  }
+
+  .groupButtons{
+    margin-top: 180px;
+  }
+
+  .showProducts {
+    padding: 1rem;
+  }
+
+  .footerTitle{
+    font-size: 1.2rem;
+  }
+  .btnSubmit {
+    padding: 10px 50px;
+  }
+}
