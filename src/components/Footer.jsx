@@ -60,7 +60,7 @@ const Footer = () => {
             <span className='footerText'>if you are missing and don´t want to miss future <br/> promotions or our future products</span>
             <form>
                 <input type='email' className='inputEmail' placeholder='your email' name='email' id='email' required />
-                <button type="submit" className='btnSubmit' value="SEND" onClick={handleSubmit} ></button>
+                <button type="submit" className='btnSubmit' onClick={handleSubmit} >SEND</button>
             </form>
         </div>
     )
