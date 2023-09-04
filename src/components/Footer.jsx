@@ -47,6 +47,11 @@ const Footer = () => {
         canvas();
     })
 
+    const handleSubmit = () => {
+        let email = document.querySelector("#email").value;
+        alert(`Registro exitoso con el email: ${email}`);
+    }
+
     return (
         <div className='footer'>
             <canvas id="canvas"></canvas>
@@ -54,8 +59,8 @@ const Footer = () => {
             <br/>
             <span className='footerText'>if you are missing and don´t want to miss future <br/> promotions or our future products</span>
             <form>
-                <input type='email' className='inputEmail' placeholder='your email' name='email' id='email' />
-                <input type="submit" className='btnSubmit' value="SEND" />
+                <input type='email' className='inputEmail' placeholder='your email' name='email' id='email' required />
+                <button type="submit" className='btnSubmit' value="SEND" onClick={handleSubmit} ></button>
             </form>
         </div>
     )
